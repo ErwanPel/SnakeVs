@@ -3,7 +3,7 @@
 </h2>
 
 <h1 align="center">
-VINTED frontend
+SnakeVS
 
 </h1>
 
