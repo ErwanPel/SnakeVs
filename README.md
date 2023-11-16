@@ -50,7 +50,7 @@ git clone https://github.com/ErwanPel/SnakeVs_PythonGame.git
 cd SnakeVs_PythonGame
 ```
 
-Install packages with Visual Studio Code :
+**Install packages with Visual Studio Code :**
 
 1) You must create the python environment in visual studio code. For this, in the command palette, look for "Python: Create an environment ...", select venv or conda and choose your interpreter.
 2) You need to install a Python terminal. For this, in the command palette, look for "Python: create a terminal...".
@@ -68,7 +68,23 @@ py main.py
 
 ```
 
+**Install packages with PyCharm :**
 
+1) Python interpreter setup: File > Settings > search tab named like this "Project: Name_of_Project" > Python Interpreter > select your interpreter.
+2) Configure the execution file: under the navigation bar, click edit configuration to the left of the "running" button. In Configuration > Script path selectionne "SnakeVs_PythonGame main.py". Below, select the Python interpreter in the "Python Interpreter" field.
+3) Install the pygame package: In View > Windows Tool > Terminal. Once the terminal is open:
+
+```
+pip install pygame
+
+```
+
+When installation is complete, you have to launch  :
+
+```
+py main.py
+
+```
 
 ## Star, Fork, Clone & Contribute
 
