@@ -54,7 +54,7 @@ Install packages with Visual Studio Code :
 
 1) You must create the python environment in visual studio code. For this, in the command palette, look for "Python: Create an environment ...", select venv or conda and choose your interpreter.
 2) You need to install a Python terminal. For this, in the command palette, look for "Python: create a terminal...".
-3) Tu dois installer le module Pygame :
+3) You must install the Pygame module:
 
 ```
 pip install pygame
